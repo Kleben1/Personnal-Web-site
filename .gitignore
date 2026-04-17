@@ -32,5 +32,3 @@ pnpm-debug.log*
 .DS_Store
 Thumbs.db
 
-# Fichiers bruts (vidéos MP4 originales, très lourdes et non utilisées en prod)
-videos/
