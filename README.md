@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🌌 Kieran Lelong — Modern Portfolio</h1>
-  <p><i>L'élégance du code, la robustesse de l'infrastructure.</i></p>
+  <p><i>Code elegance meets infrastructure robustness.</i></p>
 
   <img src="https://img.shields.io/badge/Astro-0C1328?style=for-the-badge&logo=astro&logoColor=orange" alt="Astro" />
   <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
@@ -9,81 +9,51 @@
 </div>
 
 <br />
+**DISCLAIMER** This website is created with Google Antigravity. It's not made by "Scratch". However, the architecture and features were fixed by myself. It's not just prompting and deploy despite the quality.
 
-Bienvenue sur le code source de mon portfolio interactif. 
-Plus qu'un simple CV en ligne, ce site est une démonstration concrète de ma philosophie d'ingénierie : **fiabilité, performance et design premium.** 
-
-L'architecture reflète mes 5 piliers d'expertise : **Développement**, **Réseau**, **Data**, **IA** et **Cybersécurité**.
+Welcome to the source code of my interactive portfolio.  
+More than just an online CV, this site is a concrete demonstration of my engineering philosophy: **reliability, performance, and premium design.** The architecture reflects my 5 core pillars of expertise: **Development**, **Networking**, **Data**, **AI**, and **Cybersecurity**.
 
 ---
 
-## 🔥 Pourquoi cette architecture ? (Le choix technique)
+## 🔥 Why this architecture? (Technical Stack)
 
-Pour garantir des performances fulgurantes tout en gardant une interface hautement dynamique ("Deep Tech"), le choix s'est porté sur **Astro**. 
+To guarantee lightning-fast performance while maintaining a highly dynamic "Deep Tech" interface, I chose **Astro**.  
 
-* **0 Javascript par défaut** : Le site est livré sous forme de HTML statique ultra-rapide.
-* **Island Architecture** : Seuls les composants nécessitant de l'interactivité (comme la *SkillGrid* React ou le *Terminal* animé) sont hydratés côté client.
-* **Vidéos Optimisées** : Utilisation de vidéos de fond en `.webm` pour une immersion totale sans sacrifier le temps de chargement des pages.
-* **Esthétique de pointe** : L'interface repose sur du *Glassmorphism*, des dégradés subtils, et des micro-animations via [Framer Motion](https://www.framer.com/motion/).
+* **Zero JS by default**: The site is delivered as ultra-fast static HTML.
+* **Island Architecture**: Only components requiring interactivity (such as the React *SkillGrid* or the animated *Terminal*) are hydrated client-side.
+* **Optimized Media**: High-quality `.webm` background videos ensure total immersion without sacrificing page load times.
+* **Cutting-edge Aesthetics**: The UI relies on *Glassmorphism*, subtle gradients, and micro-animations powered by [Framer Motion](https://www.framer.com/motion/).
 
-## 🗂️ Structure du Projet
+## 🗂️ Project Structure
 
-Le projet maintient une propreté clinique, pensé pour un déploiement CI/CD rapide (optimisé pour Vercel) :
+The project maintains a clinical organization, designed for rapid CI/CD deployment (optimized for Vercel):
 
 ```text
 /
-├── public/                 # Assets statiques exposés (Vidéos webm optimisées)
-├── scripts/                # Scripts utilitaires (ex: compression de vidéos)
+├── public/                 # Exposed static assets (Optimized webm videos)
+├── scripts/                # Utility scripts (e.g., video compression)
 ├── src/
-│   ├── components/         # Composants isolés (Header, Footer, UI, Forms)
-│   ├── config/             # Fichiers de configuration centraux (data, infos persos)
-│   ├── layouts/            # Templates englobants (Masteplayout)
-│   ├── pages/              # Routing & vues principales Astro
-│   └── styles/             # Variables globales et utilitaires CSS (Tailwind)
-└── package.json            # Dépendances du projet
+│   ├── components/         # Isolated components (Header, Footer, UI, Forms)
+│   ├── config/             # Centralized config files (data, personal info)
+│   ├── layouts/            # Page templates (Master layout)
+│   ├── pages/              # Astro routing & main views
+│   └── styles/             # Global variables & CSS utilities (Tailwind)
+└── package.json            # Project dependencies
 ```
 
-## 🚀 Lancer le projet localement
+##☁️ Deployment
+This portfolio is Vercel-Ready.
 
-Vous souhaitez cloner ce dépôt et tester par vous-même ? L'environnement de développement est prêt à l'emploi.
+It has no unnecessary server dependencies. As soon as a push is made to the main branch of the linked GitHub repository, Astro builds the site statically and distributes it across Vercel's global CDN in seconds.
 
-**1. Cloner le projet**
-```bash
-git clone https://github.com/Kleben1/Personnal-Web-site.git
-cd Personnal-Web-site
-```
+##🤝 Contact
+Have an idea? A project? Want to explore technical synergies?
 
-**2. Installer les dépendances**
-```bash
-npm install
-# ou avec pnpm : pnpm install
-```
+##📧 Email: lelongkieran@gmail.com
 
-**3. Lancer le serveur local (Hot Reload)**
-```bash
-npm run dev
-```
-Le projet sera accessible sur `http://localhost:4321`.
-
-**4. Build pour la production**
-```bash
-npm run build
-```
-Vous pourrez ensuite prévisualiser le build optimisé de production avec la commande `npm run preview`.
-
----
-
-## ☁️ Déploiement
-
-Ce portfolio est "Vercel-Ready". 
-Il n'a aucune dépendance serveur superflue. Dès qu'un *push* est fait sur la branche `main` du dépôt GitHub lié, Astro va builder le site de manière statique et le distribuer sur le CDN mondial de Vercel en quelques secondes.
-
-## 🤝 Contact
-
-Une idée ? Un projet ? Envie d'explorer des synergies techniques conjointes ?
-* 📧 E-mail : lelongkieran@gmail.com
-* 🔗 Linktree : [https://linktr.ee/kieranlelong](https://linktr.ee/kieranlelong)
+##🔗 Linktree: https://linktr.ee/kieranlelong
 
 <p align="center">
-  <i>Conçu et développé par Kieran Lelong.</i>
+<i>Designed and developed by Kieran Lelong.</i>
 </p>
