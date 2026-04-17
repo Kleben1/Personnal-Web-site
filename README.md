@@ -9,7 +9,8 @@
 </div>
 
 <br />
-**DISCLAIMER** This website is created with Google Antigravity. It's not made by "Scratch". However, the architecture and features were fixed by myself. It's not just prompting and deploy despite the quality.
+**DISCLAIMER** This website is created with Google Antigravity. It's not made from "Scratch". However, the architecture and features were fixed by myself. It's not just prompting and deploy despite the quality.
+
 
 Welcome to the source code of my interactive portfolio.  
 More than just an online CV, this site is a concrete demonstration of my engineering philosophy: **reliability, performance, and premium design.** The architecture reflects my 5 core pillars of expertise: **Development**, **Networking**, **Data**, **AI**, and **Cybersecurity**.
